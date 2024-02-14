@@ -1097,3 +1097,21 @@ Operator	Description	                                                           
 ||	        Logical OR: true if either of the operands/boolean values is true. evaluates to false if both are false	true || false; // true
 !	        Logical NOT: true if the operand is false and vice-versa.	                                            !true; // false
 */
+/*  const app = document.getElementById('app');
+        const header = document.createElement('h1');
+        const text = 'Develop. Preview. Ship.';
+        const headerContent = document.createTextNode(text);
+        header.appendChild(headerContent);
+        app.appendChild(header); */
+
+         /*const root = ReactDOM.createRoot(app);
+        root.render(<Header/>);
+      root.render(<h1>Develop. Preview. Ship.</h1>);
+      root.render(<HomePage/>);
+
+      const domNode = document.getElementById('app');
+
+        function Header({title}){
+            return <h1>{props.title}</h1>
+        }
+     */
